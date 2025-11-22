@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Title, Subtitle, Paragraph, HighlightBox } from "./components/UI";
-import { StudentCard } from "./components/StudentCard";
+import StudentCard from "./components/StudentCard";
 import { Counter } from "./components/Counter";
 
 function App() {
@@ -32,6 +31,7 @@ function App() {
             <StudentCard name="Aida" group="CS101" favoriteSubject="Math" />
             <StudentCard name="Nurlan" group="CS102" favoriteSubject="Physics" />
             <StudentCard name="Dastan" group="CS101" favoriteSubject="Programming" />
+            <StudentCard name="Feruza" group="CS105" favoriteSubject="CS" />
 
             <hr />
 
